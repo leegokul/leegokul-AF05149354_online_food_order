@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* VIDEO BACKGROUND PAGES */
+.video-page {
+    min-height: 100vh;
+}
+
+.video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    z-index: -2;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0,0,0,0.35);
+    z-index: -1;
+}
+
+/* IMAGE BACKGROUND PAGES */
+.image-page {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+                url("images/food-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container,
+.page-container {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 80px;
+}
+
+h1 {
+    color: #ff6600;
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    width: 350px;
+    background: white;
+    padding: 25px;
+    margin: 60px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px lightgray;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+
+    width: 90%;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+
+    background: #ff6600;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background: #e65c00;
+}
+
+.btn {
+    background: #ff6600;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    width: 200px;
+}
+
+.btn:hover {
+    background: #e65c00;
+}
+
+.logout-btn {
+    background: red;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+}
